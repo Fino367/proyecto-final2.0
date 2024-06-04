@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/busca.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <nav class="Menu">
+        <div class="nav">
+            <span><img src="../img/CHefs.png" class="logo"></span>
+            <div class="menu_desplegable1">
+                <ul class="rad">
+                    <li><a href="index2.html" class="boton">Inicio</a></li>
+                    <li><a href="perfil.html" class="boton">Chef</a></li>
+                    <li><a href="recetas.html" class="boton">Recetas</a></li>
+                    <li><a href="buscador.html" class="boton">Buscador</a></li>
+                    <li><a href="" class="boton">Preguntas</a></li>
+                </ul>
+            </div>
+            <div class="menu-icono">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="contenedor">
+        <section class="container">
+            <h1 id="title" class="title"></h1>
+            <hr/>
+            <h1 id="año" class="title"></h1>
+            <hr/>
+            <article id="canciones" class="canciones">
+            </article>
+            <hr/>
+            <div id="procedimiento"></div> 
+        </section>
+        <section class="formulario">
+            <h1 class="titulo">Buscar alguna Receta?</h1>
+            <label>Ingrese el plato que desea buscar</label>
+            <input type="text" id="nombre" class="for" placeholder="ingrese la receta a buscar" required/>
+            <button onclick="buscar()">Buscar</button>
+        </section>
+        <section class="recetas">
+            <h2>Recetas:</h2>
+            <h3>Kangaroo Tataki</h3>
+            <h3>Empanadillas de conejo y puerro</h3>
+            <h3>Pato a la naranja moderno</h3>
+            <h3>Sopa de mariscos al estilo escocés</h3>
+            <h3>Tarta de manzana con crumble</h3>
+            <h3>Cangrejo con ajo silvestre y mantequilla de avellana</h3>
+            <h3>Costillas de cordero con puré de chirivía y salsa de grosellas</h3>
+            <h3>Risotto de cebada con setas silvestres</h3>
+            <h3>Pavlova de frutas tropicales</h3>
+            <h3>Pez espada a la parrilla con ensalada de hinojo y naranja</h3>
+        </section>
+    </div>
+    <script src="../scripts/busca.js"></script>
+    <script src="../scripts/java.js"></script>
+    <footer>
+        <h3>Derechos reservados</h3>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+#box_form1{
+    background: linear-gradient(to bottom,#0B1320, #1C3F60);
+    width: 50%;
+    padding: 2% 2%;
+    margin: auto;
+    text-align: left;
+    border: 1px solid #0B1320;
+    border-radius: 25px;
+}
+#in_nombre,#in_apellido,#in_correo,#in_reg_contra,#in_conf_contra,#in_correo_lg,#in_contra_lg{
+    width: 50%;
+    padding: 2% 2%;
+    margin: 1% 2%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#in_gen,#in_fecha{
+    width: 22%;
+    height: 7%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+label{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 0% 1%;
+    font-weight: bold;
+}
+#boton_m{
+    text-align: center;
+    margin: 2% 4%;
+}
+#boton_confirmar,#boton_ingresar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 120%;
+    width: 50%;
+    padding: 1% 1%;
+    margin: 1% 1%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#boton_tengo{
+    font-size: 120%;
+    width: 50%;
+    padding: 1% 1%;
+    margin: 1% 1%;
+}

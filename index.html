@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Recetas de Chefs Conocidos</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/styleRI2.css">
+</head>
+<body>
+    <nav class="Menu">
+        <div class="nav">
+            <span><img src="img/CHefs.png" class="logo"></span>
+            <div class="menu_desplegable1">
+                <ul class="rad">
+                    <li><a href="asets/Inicio.html" class="boton-IR">Iniciar sesion</a></li>
+                    <li><a href="index.html" class="boton-IR">registro</a></li>
+                </ul>
+            </div>
+            <div class="menu-icono">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="titulo">
+        <h1>
+            Recetas de Chefs Conocidos
+        </h1>
+    </div>
+    <div id="box_form1">
+        <div id="box_tit">REGÍSTRO</div>
+        <label>Nombres</label><br>
+        <input type="text" id="in_nombre" name="nombre" placeholder="Ingrese sus nombres"><br>
+        <label>Apellidos</label><br>
+        <input type="text" id="in_apellido" name="nombre" placeholder="Ingrese sus apellidos"><br>
+        <label>Fecha de nacimiento</label>
+        <input type="date" id="in_fecha" name="nombre">
+        <label>Género</label>
+        <select id="in_gen">
+            <option value="1">Masculino</option>
+            <option value="2">Femenino</option>
+        </select><br>
+        <label>Correo electrónico</label><br>
+        <input type="email" id="in_correo" name="nombre" placeholder="Ingrese un correo electrónico"><br>
+        <label>Contraseña</label><br>
+        <input type="password" id="in_reg_contra" name="nombre" placeholder="Ingrese su contraseña nueva"><br>
+        <label>Confirme contraseña</label><br>
+        <input type="password" id="in_conf_contra" name="nombre" placeholder="Ingrese su contraseña nueva"><br>
+        <div id="boton_m">
+        <button onclick="confirmar()" id="boton_confirmar">CONFIRMAR REGÍSTRO</button><br>
+        </div>
+        <div id="boton_tengo"><a href="asets/Inicio.html">Ya tengo una cuenta</div>
+    </div>
+    <footer>
+        <h3>Derechos reservados</h3>
+      </footer>
+    <script src="scripts/registro.js"></script>
+</body>
+</html>

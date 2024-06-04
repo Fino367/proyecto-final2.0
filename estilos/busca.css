@@ -1,0 +1,52 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}    
+.container h1{
+    text-align: center;
+}
+.container article ul{
+    list-style: circle;
+    text-align:left;
+}
+.container{
+    width: 700px;
+    max-height: min-content;
+    margin-left: 50px;
+    background-color: #1C3F60;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.formulario{
+    width: 300px;
+    height: 250px;
+    background-color:#1C3F60;
+    border:2px solid black; 
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 300px;
+}
+.titulo{
+    width: 300px;
+    margin-top: 0;
+}
+.recetas{
+    background-color: #1C3F60;
+    padding: 10px;
+    margin: auto;
+    border:2px solid black; 
+}
+.recetas h2{
+    border-bottom: solid 1px 
+    #fff
+}
+@media (max-width: 900px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    } 
+}

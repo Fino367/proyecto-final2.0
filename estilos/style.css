@@ -1,0 +1,261 @@
+body {
+    background-image: url("../img/pexels-chanwalrus-941861.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_desplegable1 {
+    display: block;
+}
+
+.nav {
+    height: 15vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+.menu-icono {
+    display: none;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.radimg {
+    margin: 0px;
+    list-style: none;
+    padding: 5px;
+    padding-right: 100px;
+}
+
+.imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 85px;
+}
+
+.logo {
+    float: left;
+    margin-right: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 85px;
+}
+
+.boton {
+    background-color: #0B1320;
+    padding: 12px 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.boton-IR {
+    background-color: aliceblue;
+    padding: 12px 30px;
+    color: #1C3F60;
+    border-radius: 25px;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.rad {
+    display: flex;
+    margin: 100px 0px 0 0px;
+    list-style: none;
+    padding: 5px;
+    margin-right: 80px;
+}
+
+.rad1 {
+    margin: 100px 0px 0 0px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.rad2 {
+    margin: 100px 0px 0 0px;
+    list-style: none;
+    padding: 0px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.titulo {
+    margin: auto;
+    margin-top: 100px;
+    background-color: aliceblue;
+    color: #0B1320;
+    width: 600px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.P-list {
+    margin: auto;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+.lista {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+
+.botonl2 {
+    background-color: aliceblue;
+    padding: 12px 30px;
+    color: #0B1320;
+    border-radius: 25px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.cajota {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #0B1320;
+    width: 98%;
+    padding: 30px 0px 20px 0px;
+}
+
+.foto {
+    height: 800px;
+    border-radius: 20px;
+}
+
+.biografia {
+    background-color: #1C3F60;
+    width: 700px;
+    text-align: center;
+    padding: 20px;
+}
+
+.tit {
+    font-size: 40px;
+}
+
+.bio {
+    font-size: 25px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 2px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .biografia {
+        background-color: #1C3F60;
+        width: 700px;
+        text-align: center;
+        padding: 1px;
+    }
+    .menu_desplegable1 {
+        display: none;
+    }
+
+    .menu-icono {
+        display: block;
+    }
+
+    .menu_desplegable1.active {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+    }
+
+    .menu_desplegable1 ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .menu_desplegable1 li {
+        margin: 0;
+    }
+
+    .menu_desplegable1 li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .menu_desplegable1 li a:hover {
+        background-color: #f0f0f0;
+    }
+
+    .titulo {
+        margin: auto;
+        margin-top: 200px;
+        background-color: aliceblue;
+        color: #0B1320;
+        width: 600px;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .logo {
+        float: left;
+        margin-right: 100px;
+        width: 130px;
+        height: 115px;
+        border-radius: 85px;
+    }
+
+    .Menu {
+        background-color: #0B1320;
+    }
+
+    .nav {
+        height: 15vh;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+
+    .boton {
+        background-color: transparent;
+        padding: 0;
+        color: #fff;
+        border-radius: 0;
+        text-decoration: none;
+        margin: 0;
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .rad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 90%;
+        margin: 16px;
+        padding: 20px;
+    }
+}
